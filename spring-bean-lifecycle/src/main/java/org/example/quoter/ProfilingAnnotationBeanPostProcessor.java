@@ -1,4 +1,4 @@
-package org.example;
+package org.example.quoter;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

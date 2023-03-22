@@ -1,4 +1,4 @@
-package org.example;
+package org.example.quoter;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Profiling
 @Component
+@DeprecatedClass(newImpl = T1000.class)
 public class TerminatorQuoter implements Quoter {
     @InjectRandomInt(min = 2, max = 5)
     private int repeat;

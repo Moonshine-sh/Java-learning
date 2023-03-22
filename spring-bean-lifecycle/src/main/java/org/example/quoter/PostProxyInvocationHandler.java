@@ -1,4 +1,4 @@
-package org.example;
+package org.example.quoter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;
